@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import 'font-awesome/css/font-awesome.min.css'
 import reportWebVitals from './reportWebVitals';
+import Homenav from './Homenav';
+import Firstcompo from './Firstcompo';
+import Secondcompo from './Secondcompo';
+import Thirdcompo from './Thirdcompo';
+import Fourth from './Fourth';
+import Fivecompo from './Fivecompo';
+import Sixthcompo from './Sixthcompo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Homenav />
+    <Firstcompo />
+    <Secondcompo />
+    <Thirdcompo />
+    <Fourth />
+    <Fivecompo />
+    <Sixthcompo />
   </React.StrictMode>
 );
 
